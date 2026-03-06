@@ -1,4 +1,4 @@
-proxy-groups:
+﻿proxy-groups:
   - name: "PrvtVPN All Auto"
     type: "url-test"
     proxies:
