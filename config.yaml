@@ -155,13 +155,43 @@
       - "🇩🇪 🎮 Germany Gaming · Trojan, gRCP"
       - "🇫🇮 🎮 Finland Gaming · Trojan, gRCP"
 
-  # ===== ИСПРАВЛЕННАЯ ГРУППА ДЛЯ GEMINI =====
-  # Только серверы с WebSocket (VLESS, WS / VLESS, WebSocket)
-  # Автоматический выбор самого быстрого с фиксацией до окончания сессии
+  # Автоматический выбор лучшего сервера для Gemini (без CIS, тест через Google)
+  - name: "🤖 GEMINI AUTO"
+    type: url-test
+    url: "https://www.google.com/generate_204"
+    interval: 300
+    tolerance: 100
+    lazy: false
+    proxies:
+      - "🇩🇪 🎮 Germany Gaming · VLESS, WS"
+      - "🇫🇮 🎮 Finland Gaming · VLESS, WS"
+      - "🇭🇰 China, Hong Kong · VLESS, WebSocket"
+      - "🇯🇵 Japan, Tokyo · VLESS, WS"
+      - "🇺🇸 USA, Fremont · VLESS, WS"
+      - "🇺🇸 USA, New York · VLESS, TCP"
+      - "🇬🇧 United Kingdom, London · VLESS, WS"
+      - "🇫🇷 France, Paris · VLESS, WS"
+      - "🇪🇸 Spain, Madrid · VLESS, WS"
+      - "🇵🇱 Poland, Warsaw · VLESS, WS"
+      - "🇩🇪 Germany, Frankfurt am Main · VLESS, WS"
+      - "🇩🇪 Germany, Frankfurt am Main² · VLESS, WS"
+      - "🇩🇪 Germany, Frankfurt am Main³ · VLESS, WS"
+      - "🇳🇱 Netherlands, Amsterdam · VLESS, WS"
+      - "🇳🇱 Netherlands, Amsterdam² · VLESS, WS"
+      - "🇫🇮 Finland, Helsinki · VLESS, WS"
+      - "🇫🇮 Finland, Helsinki² · VLESS, WS"
+      - "🇫🇮 Finland, Helsinki³ · VLESS, WS"
+      - "🇸🇪 Sweden, Stockholm · VLESS, WS"
+      - "🇸🇪 Sweden, Stockholm² · VLESS, WS"
+      - "🇱🇻 Latvia, Riga · VLESS, WS"
+      - "🇱🇻 Latvia, Riga² · VLESS, WS"
+      - "🇬🇧 United Kingdom, London · VLESS, XHTTP"
+
+  # Группа GEMINI — вручную можно выбрать конкретный сервер
   - name: "🤖 GEMINI"
     type: select
     proxies:
-      - "PrvtVPN All Auto"
+      - "🤖 GEMINI AUTO"
       - "🇩🇪 Germany, Frankfurt am Main · VLESS, WS"
       - "🇩🇪 Germany, Frankfurt am Main² · VLESS, WS"
       - "🇩🇪 Germany, Frankfurt am Main³ · VLESS, WS"
@@ -174,16 +204,17 @@
       - "🇸🇪 Sweden, Stockholm · VLESS, WS"
       - "🇸🇪 Sweden, Stockholm² · VLESS, WS"
       - "🇪🇪 Estonia, Tallinn² · VLESS, WS"
-      - "🇰🇿 Kazakhstan, Almaty · VLESS, WS"
       - "🇱🇻 Latvia, Riga · VLESS, WS"
       - "🇱🇻 Latvia, Riga² · VLESS, WS"
       - "🇬🇧 United Kingdom, London · VLESS, WS"
+      - "🇬🇧 United Kingdom, London · VLESS, XHTTP"
       - "🇫🇷 France, Paris · VLESS, WS"
       - "🇪🇸 Spain, Madrid · VLESS, WS"
       - "🇹🇷 Turkey, Istanbul · VLESS, WS"
       - "🇭🇰 China, Hong Kong · VLESS, WebSocket"
       - "🇯🇵 Japan, Tokyo · VLESS, WS"
       - "🇺🇸 USA, Fremont · VLESS, WS"
+      - "🇺🇸 USA, New York · VLESS, TCP"
       - "🇩🇪 🎮 Germany Gaming · VLESS, WS"
       - "🇫🇮 🎮 Finland Gaming · VLESS, WS"
 
