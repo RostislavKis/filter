@@ -1,10 +1,7 @@
-# Russian banks, telecom, services — DIRECT
-# OTP Bank
 DOMAIN-SUFFIX,otpbank.ru
 DOMAIN,online.otpbank.ru
 IP-CIDR,194.50.120.204/32,no-resolve
 IP-CIDR,91.221.165.177/32,no-resolve
-# Ozon
 DOMAIN-SUFFIX,ozon.ru
 DOMAIN-SUFFIX,finance.ozon.ru
 IP-CIDR,185.73.193.68/32,no-resolve
@@ -15,14 +12,12 @@ IP-CIDR,31.130.142.3/32,no-resolve
 IP-CIDR,31.130.143.3/32,no-resolve
 IP-CIDR,31.130.143.67/32,no-resolve
 IP-CIDR,31.130.143.131/32,no-resolve
-# Wildberries
 DOMAIN-SUFFIX,wildberries.ru
 DOMAIN-SUFFIX,wb.ru
 IP-CIDR,185.62.202.2/32,no-resolve
 IP-CIDR,185.138.253.1/32,no-resolve
 IP-CIDR,185.138.255.1/32,no-resolve
 IP-CIDR,213.184.155.142/32,no-resolve
-# Yandex
 DOMAIN-SUFFIX,ya.ru
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yabank.yandex.ru
@@ -36,7 +31,6 @@ IP-CIDR,5.255.255.77/32,no-resolve
 IP-CIDR6,2a02:6b8:a::a/128,no-resolve
 IP-CIDR,87.250.254.18/32,no-resolve
 IP-CIDR6,2a02:6b8::469/128,no-resolve
-# Tele2
 DOMAIN-SUFFIX,t2.ru
 DOMAIN-SUFFIX,tele2.ru
 IP-CIDR,37.220.163.23/32,no-resolve
@@ -44,13 +38,11 @@ IP-CIDR,195.209.67.49/32,no-resolve
 IP-CIDR,46.235.188.81/32,no-resolve
 IP-CIDR,46.235.185.253/32,no-resolve
 IP-CIDR,212.193.152.180/32,no-resolve
-# MTS
 DOMAIN-SUFFIX,mts.ru
 DOMAIN-SUFFIX,lk.mts.ru
 DOMAIN-SUFFIX,mtsbank.ru
 IP-CIDR,178.248.237.216/32,no-resolve
 IP-CIDR,185.163.159.137/32,no-resolve
-# Misc RU
 DOMAIN-SUFFIX,xxee.ru
 DOMAIN-SUFFIX,3gppnetwork.org
 DOMAIN-SUFFIX,rutube.ru

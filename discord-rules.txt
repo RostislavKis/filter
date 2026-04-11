@@ -1,4 +1,3 @@
-# Discord — domains + voice/STUN ports
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com

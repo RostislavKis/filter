@@ -1,23 +1,16 @@
-# Misc services routed via proxy
-# 4PDA
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,4pda.ru
 DOMAIN-SUFFIX,4pda.ws
-# Boosty
 DOMAIN-SUFFIX,boosty.to
 DOMAIN-SUFFIX,boosty.media
 DOMAIN-KEYWORD,boosty
-# Xerox
 DOMAIN-SUFFIX,xerox.co.uk
 DOMAIN-SUFFIX,xerox.com
-# Other
 DOMAIN-SUFFIX,zerolab.net
 DOMAIN-SUFFIX,edgesuite.net
-# Windows network tests (need proxy to pass from RU)
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,mp.microsoft.com
-# 4PDA IPs
 IP-CIDR,2.56.178.172/32,no-resolve
 IP-CIDR,5.252.176.150/32,no-resolve
 IP-CIDR,31.131.253.250/32,no-resolve
