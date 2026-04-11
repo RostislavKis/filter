@@ -1,0 +1,55 @@
+# Google / Gemini AI / YouTube
+# Gemini AI
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,automl.googleapis.com
+DOMAIN-SUFFIX,ml.googleapis.com
+DOMAIN-SUFFIX,vision.googleapis.com
+DOMAIN-SUFFIX,language.googleapis.com
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,speech.googleapis.com
+DOMAIN-SUFFIX,texttospeech.googleapis.com
+DOMAIN-SUFFIX,cloudfunctions.googleapis.com
+DOMAIN,content-autofill.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudaicompanion-pa.googleapis.com
+DOMAIN,model-viewer.googleapis.com
+# YouTube
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-KEYWORD,youtu
+# Google Auth & CDN
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.ru
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-KEYWORD,google
+# Google IP ranges
+IP-CIDR,8.8.8.0/24,no-resolve
+IP-CIDR,8.8.4.0/24,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,216.58.0.0/16,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.64.0/19,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,108.177.0.0/17,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.253.0.0/16,no-resolve
+IP-CIDR,207.126.144.0/20,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve

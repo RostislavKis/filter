@@ -1,0 +1,26 @@
+# Lampa / CUB / Torrent trackers / TorrServer — DIRECT
+# CUB
+DOMAIN-SUFFIX,cub.red
+DOMAIN-SUFFIX,cub.rip
+DOMAIN-SUFFIX,cub.watch
+DOMAIN-SUFFIX,tmdb.cub.rip
+# TMDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,tmdb-image-prod.b-cdn.net
+# Torrent trackers
+DOMAIN-SUFFIX,jackett
+DOMAIN-SUFFIX,flaresolverr
+DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,yumata.github.io
+DOMAIN-SUFFIX,kurwa-bober.ninja
+DOMAIN-SUFFIX,bitru.org
+DOMAIN-SUFFIX,toloka.to
+DOMAIN-SUFFIX,nnmclub.to
+DOMAIN-SUFFIX,megapeer.vip
+DOMAIN-SUFFIX,rutor.info
+DOMAIN-SUFFIX,bt4.t-ru.org
+DOMAIN-SUFFIX,torrentleech.org
+# TorrServer key verification
+DOMAIN-SUFFIX,torrentonline.cc
+DOMAIN-SUFFIX,080609.xyz

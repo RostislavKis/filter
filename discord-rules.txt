@@ -1,0 +1,13 @@
+# Discord — domains + voice/STUN ports
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-KEYWORD,stun
+DOMAIN-KEYWORD,turn
+AND,((NETWORK,UDP),(DST-PORT,3478-3497))
+AND,((NETWORK,UDP),(DST-PORT,5349))
+AND,((NETWORK,TCP),(DST-PORT,3478-3497))
+AND,((NETWORK,TCP),(DST-PORT,5349))
