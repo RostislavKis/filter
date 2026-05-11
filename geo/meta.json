@@ -1,0 +1,26 @@
+﻿{
+    "version":  "2026-05-11",
+    "updated_utc":  "2026-05-11T11:20:23Z",
+    "categories":  [
+                       {
+                           "name":  "geosite-ru",
+                           "entries":  1210853
+                       },
+                       {
+                           "name":  "geosite-trackers",
+                           "entries":  41115
+                       },
+                       {
+                           "name":  "geosite-ads",
+                           "entries":  220463
+                       },
+                       {
+                           "name":  "opencck-domains",
+                           "entries":  382467
+                       },
+                       {
+                           "name":  "geosite-threats",
+                           "entries":  310456
+                       }
+                   ]
+}

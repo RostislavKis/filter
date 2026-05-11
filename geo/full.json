@@ -1,0 +1,37 @@
+﻿{
+    "profile":  "full",
+    "version":  "2026-05-11",
+    "updated_utc":  "2026-05-11T11:20:23Z",
+    "files":  [
+                  {
+                      "name":  "geosite-ru.lst",
+                      "size":  22806750,
+                      "sha256":  "a42d39798759a78cce5084b3c32249fb21c4ef4b8c622b2d0991824d519b3eb7",
+                      "entries":  1210853
+                  },
+                  {
+                      "name":  "geosite-ads.lst",
+                      "size":  4576168,
+                      "sha256":  "f64cb0d8ee0f15f75dab7cd36c3872bccdf93b5d8c47ede5c7afc6345042330e",
+                      "entries":  220463
+                  },
+                  {
+                      "name":  "geosite-trackers.lst",
+                      "size":  901306,
+                      "sha256":  "280d887f88e746ab1e09e05fd24d6adfb5f8ceade221ba1a4f42a03972ed9134",
+                      "entries":  41115
+                  },
+                  {
+                      "name":  "geosite-threats.lst",
+                      "size":  8177505,
+                      "sha256":  "670f7802e79ee18562ed991a9b72bf09faaa096f76512b81e84810a752d64ff7",
+                      "entries":  310456
+                  },
+                  {
+                      "name":  "opencck-domains.lst",
+                      "size":  7230657,
+                      "sha256":  "be6a62a90e4958ec11e7021743786952835c770eda2571f0fa11f2a225c5f668",
+                      "entries":  382467
+                  }
+              ]
+}
