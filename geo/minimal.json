@@ -1,13 +1,8 @@
-﻿{
-    "profile":  "minimal",
-    "version":  "2026-05-11",
-    "updated_utc":  "2026-05-11T11:20:23Z",
-    "files":  [
-                  {
-                      "name":  "geosite-ru.lst",
-                      "size":  22806750,
-                      "sha256":  "a42d39798759a78cce5084b3c32249fb21c4ef4b8c622b2d0991824d519b3eb7",
-                      "entries":  1210853
-                  }
-              ]
+{
+  "version": 2,
+  "updated_utc": "2026-05-16T00:00:00Z",
+  "files": [
+    {"name": "geoip-ru.gbin",   "path": "geo/geoip-ru.gbin",   "region": 1, "cat_type": 0},
+    {"name": "geosite-ru.gbin", "path": "geo/geosite-ru.gbin", "region": 1, "cat_type": 0}
+  ]
 }
